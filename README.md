@@ -10,3 +10,11 @@ The model aims to assist in understanding crime patterns and improving decision-
 Source: [City of Chicago Crime Data (Updated Daily)](https://data.cityofchicago.org/Public-Safety/Crime-Data-Current-Year-Updated-Daily-/ijzp-q8t2)  
 
 Time Range: 2019–2024
+
+**Model Development**
+
+Multiple machine learning algorithms were explored, including Logistic Regression, Decision Tree, Random Forest, XGBoost, and LightGBM. Each model was trained and evaluated using standard metrics such as accuracy, precision, recall, F1-score, and confusion matrix. 
+
+**Result**
+
+After thorough experimentation, the Random Forest model emerged as the top performer, achieving the highest accuracy of 90.8% on the test set.
